@@ -12,6 +12,8 @@
 		E1DD026920F612BA00E86ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DD026720F612BA00E86ACB /* Main.storyboard */; };
 		E1DD026B20F612BC00E86ACB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1DD026A20F612BC00E86ACB /* Assets.xcassets */; };
 		E1DD026E20F612BC00E86ACB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1DD026C20F612BC00E86ACB /* LaunchScreen.storyboard */; };
+		E1DD027620F6244100E86ACB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD027520F6244100E86ACB /* CardView.swift */; };
+		E1DD027820F6245A00E86ACB /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1DD027720F6245A00E86ACB /* CardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		E1DD026A20F612BC00E86ACB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E1DD026D20F612BC00E86ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E1DD026F20F612BC00E86ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1DD027520F6244100E86ACB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E1DD027720F6245A00E86ACB /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				E1DD026A20F612BC00E86ACB /* Assets.xcassets */,
 				E1DD026C20F612BC00E86ACB /* LaunchScreen.storyboard */,
 				E1DD026F20F612BC00E86ACB /* Info.plist */,
+				E1DD027520F6244100E86ACB /* CardView.swift */,
+				E1DD027720F6245A00E86ACB /* CardView.xib */,
 			);
 			path = tinder;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					E1DD025F20F612BA00E86ACB = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -124,6 +131,7 @@
 			files = (
 				E1DD026E20F612BC00E86ACB /* LaunchScreen.storyboard in Resources */,
 				E1DD026B20F612BC00E86ACB /* Assets.xcassets in Resources */,
+				E1DD027820F6245A00E86ACB /* CardView.xib in Resources */,
 				E1DD026920F612BA00E86ACB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1DD026620F612BA00E86ACB /* ViewController.swift in Sources */,
+				E1DD027620F6244100E86ACB /* CardView.swift in Sources */,
 				E1DD026420F612BA00E86ACB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,16 +290,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W85GJYFB35;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = tinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +309,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W85GJYFB35;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = tinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
